@@ -1,0 +1,17 @@
+{
+  "extends": "eslint-config-satya164",
+
+  "plugins": ["react-native-globals"],
+
+  "env": {
+    "react-native-globals/all": true
+  },
+
+  "settings": {
+    "import/core-modules": [
+      "react-native-tab-view",
+      "react-native-gesture-handler",
+      "react-native-reanimated"
+    ]
+  }
+}
